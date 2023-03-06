@@ -1,0 +1,19 @@
+{%extends "./shared/layout.html"%}
+
+{%block head%}
+<title>Detail</title>
+{% endblock %}
+
+{%block body%}
+<header class="jumbotron product-header" style="background-image: url('{{product.image}}')">
+    <div class="container">
+        <h1>{{product.title}}</h1>
+    </div>
+</header>
+<section>
+    <div class="container">
+        <p>${{product.price}}NTD</p>
+        <a class="btn btn-secondary">回到產品列表</a>
+    </div>
+</section>
+{% endblock %}
