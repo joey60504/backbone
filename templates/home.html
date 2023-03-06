@@ -16,18 +16,23 @@
         <p>Lorem ipsum dolor sit amet.</p>
     </header>
     <section>
-        <div class="row">
-            {%for product in product_list%}
-            <div class="col-md-2">
-                <div class="card mb-5">
-                    <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
-                    <div class="card-body">
-                        <h4 class="card-title">{{product.title}}</h4>
-                        <p class="card-text">${{product.price}}NTD</p>
+        <!-- 網格系統 container > row > .col -->
+        <div class="container">
+            <div class="row">
+                {%for product in product_list%}
+                <div class="col-md-2">
+                    <!-- 快捷
+                    b4-card-default -->
+                    <div class="card mb-5">
+                        <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                        <div class="card-body">
+                            <h4 class="card-title">{{product.title}}</h4>
+                            <p class="card-text">${{product.price}}NTD</p>
+                        </div>
                     </div>
                 </div>
+                {%endfor%}
             </div>
-            {%endfor%}
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
