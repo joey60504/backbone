@@ -5,7 +5,8 @@
 {% endblock %}
 
 {%block body%}
-<header class="jumbotron product-header" style="background-image: url(https://static.wixstatic.com/media/24a6ff_e94cc2a5aaef45e9a23a7b7fc42c2746~mv2.jpg/v1/crop/x_0,y_7,w_4000,h_2653/fill/w_760,h_504,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_8081.jpg)">
+<header class="jumbotron product-header"
+    style="background-image: url(https://static.wixstatic.com/media/24a6ff_e94cc2a5aaef45e9a23a7b7fc42c2746~mv2.jpg/v1/crop/x_0,y_7,w_4000,h_2653/fill/w_760,h_504,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_8081.jpg)">
     <div class="container">
         <h1>{{product.title}}</h1>
     </div>
@@ -14,6 +15,35 @@
     <div class="container">
         <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
         <p>${{product.price}}NTD</p>
+        <div class = "row">
+            <div class="radio" >
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="button" id="button1" autocomplete="off" checked> Radio button 1
+                    </label>
+
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="button" id="button2" autocomplete="off">
+                        Radio button 2
+                    </label>
+
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="button" id="button3" autocomplete="off">
+                        Radio button 3
+                    </label>
+
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="button" id="button4" autocomplete="off">
+                        Radio button 4
+                    </label>
+
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="button" id="button5" autocomplete="off">
+                        Radio button 5
+                    </label>
+                </div>
+            </div>
+        </div>
         <a class="btn btn-secondary">回到產品列表</a>
     </div>
 </section>
