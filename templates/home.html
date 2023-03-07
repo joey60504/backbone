@@ -13,20 +13,80 @@
 <section>
     <!-- 網格系統 container > row > .col -->
     <div class="container">
+        <h1>Chair_Customize</h1>
         <div class="row">
             {%for product in product_list%}
-            <div class="col-md-2">
-                <!-- 快捷
-                    b4-card-default -->
-                <div class="card mb-5">
-                    <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
-                    <div class="card-body">
-                        <h4 class="card-title">{{product.title}}</h4>
-                        <p class="card-text">${{product.price}}NTD</p>
-                        <a class="btn btn-secondary" href="product/{{loop.index0}}">ShowDetails</a>
+                {%if 'chair' in product['type']%}
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <!-- 快捷
+                            b4-card-default -->
+                        <div class="card mb-5 ">
+                            <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                            <div class="card-body">
+                                <h4 class="card-title">{{product.title}}</h4>
+                                <p class="card-text">${{product.price}}NTD</p>
+                                <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                {%endif%}
+            {%endfor%}`
+        </div>
+        <h1>Table_Customize</h1>
+        <div class="row">
+            {%for product in product_list%}
+                {%if 'table' in product['type']%}
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <!-- 快捷
+                            b4-card-default -->
+                        <div class="card mb-5 ">
+                            <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                            <div class="card-body">
+                                <h4 class="card-title">{{product.title}}</h4>
+                                <p class="card-text">${{product.price}}NTD</p>
+                                <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
+                            </div>
+                        </div>
+                    </div>
+                {%endif%}
+            {%endfor%}`
+        </div>
+        <h1>Fitting</h1>
+        <div class="row">
+            {%for product in product_list%}
+                {%if 'fitting' in product['type']%}
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <!-- 快捷
+                            b4-card-default -->
+                        <div class="card mb-5 ">
+                            <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                            <div class="card-body">
+                                <h4 class="card-title">{{product.title}}</h4>
+                                <p class="card-text">${{product.price}}NTD</p>
+                                <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
+                            </div>
+                        </div>
+                    </div>
+                {%endif%}
+            {%endfor%}`
+        </div>
+        <h1>Music_Customize</h1>
+        <div class="row">
+            {%for product in product_list%}
+                {%if 'music' in product['type']%}
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <!-- 快捷
+                            b4-card-default -->
+                        <div class="card mb-5 ">
+                            <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                            <div class="card-body">
+                                <h4 class="card-title">{{product.title}}</h4>
+                                <p class="card-text">${{product.price}}NTD</p>
+                                <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
+                            </div>
+                        </div>
+                    </div>
+                {%endif%}
             {%endfor%}`
         </div>
     </div>
