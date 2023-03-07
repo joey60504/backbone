@@ -2,7 +2,6 @@
 #     椅子:
 #     客製款-->chair_customize
 #     特規款-->chair_special
-#     固定款-->chair_nocustomize
 #     桌子:
 #     電動款-->table_electric_customize
 #     手動款-->table_manual_customize
@@ -58,17 +57,31 @@ product_list = [{
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzMxNDgzNDg4LzE2NTc1MTczNTNfZDI3NTFjNGFiYTdhYTljMDU1M2MuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=c90d0a01e904ec4e",
     'title': 'Dyback04',
-    'type': 'table_customize',
+    'type': 'table_electric_customize',
     'price': 15700,
+    'is_published': True
+    },
+    {
+    'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzI4OTM1MTE4L-aDheWig182MDB4NjAwXzAyXzMyYjZiM2I4NjkwNzc5YzYwZmFkLmpwZWciXSxbInAiLCJ0aHVtYiIsIjYwMHg2MDAiXV0.jpeg?sha=893eb46851454625",
+    'title': 'CityDesk',
+    'type': 'table_manual_customize',
+    'price': 8888,
     'is_published': True
     },
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzM5NDk4MzU5LzE2NzYzNjkyNDNfNDg3YzdhZDM0ODBkOGE0ZTNjMjcucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=f8abfa93941cb936",
     'title': 'Reef桌上平台螢幕架',
-    'type': 'fitting_c',
+    'type': 'fitting_t',
     'price': 1200,
     'is_published': True
     },
+    {
+    'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzM3MTA4NDA5LzE2NTQ4NTY0NDJfNGZjYTA0YjU5MGE5N2YxZGVjZTIucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=e4657b6df73325f0",
+    'title': 'JellyFish透氣腳拖',
+    'type': 'fitting_c',
+    'price': 2000,
+    'is_published': True
+    },   
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzI5NzMzNzU4LzQ1XzNhZDdhY2Q3YTY5ZmI0NzAwY2ZiLmpwZWciXSxbInAiLCJ0aHVtYiIsIjYwMHg2MDAiXV0.jpeg?sha=20774b2527efa5eb",
     'title': 'headquarter音樂工作站',
