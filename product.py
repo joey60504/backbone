@@ -11,91 +11,134 @@
 #     其他配件-->fitting_o
 #     wavebone:
 #     一般款:music_customize
-    
+
 product_list = [{
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzI2NDUxMDM2LzE2MzUxNTQzMTBfMmJmYmJmMDAwZDVhNTE0YjNmMjIuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=7d4f36ec98355041",
     'title': 'Kangaroo',
     'type': 'chair_customize',
     'price': 7080,
     'is_published': True
-    },
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzI2NDUxMDM5LzE2MjYzMTg5MjBfNTg1YjA5MTM2MWRhNWNlZmM5OTMuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=15eaea97635bf078",
     'title': 'Bear',
     'type': 'chair_customize',
     'price': 7080,
     'is_published': True
-    },
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzMzNjc2MDczLzE2MjE0MDM4MzVfYjQzYmQ2NTNhMzBhMWIxMTRkNGQuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=bc0f38bc9a5e18c8",
     'title': 'Kabuto',
     'type': 'chair_special',
     'price': 12880,
     'is_published': True
-    },  
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzM0MjYwMDA1LzE2Mjg4NDY4ODBfZTk5ODQwMWQ3NDE5OTAwMzc5MmUuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=6c3712c8fc3d756a",
     'title': 'Mamba',
     'type': 'chair_special',
     'price': 7880,
     'is_published': True
-    },
+},
     {
         'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzI2NDUxMDE5L0hZLTA2TV80ZjdiNjMyMzczMjQ1MzBmMmQ5Yi5qcGVnIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.jpeg?sha=23a2fe0bff2473ee",
     'title': 'Eagle',
     'type': 'chair_customize',
     'price': 4280,
     'is_published': True
-    },
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzI2NDUxMDU0L-iqv-aVtOakheasvuWkp-Wwjy02MDB4NjAwXzYzMzM2OGFjMTNkNjMxYTlmYmJkLmpwZWciXSxbInAiLCJ0aHVtYiIsIjYwMHg2MDAiXV0.jpeg?sha=db736b12dbd55910",
     'title': 'Ox',
     'type': 'chair_customize',
     'price': 5800,
     'is_published': True
-    },
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzMxNDgzNDg4LzE2NTc1MTczNTNfZDI3NTFjNGFiYTdhYTljMDU1M2MuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=c90d0a01e904ec4e",
     'title': 'Dyback04',
     'type': 'table_electric_customize',
     'price': 15700,
     'is_published': True
-    },
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzI4OTM1MTE4L-aDheWig182MDB4NjAwXzAyXzMyYjZiM2I4NjkwNzc5YzYwZmFkLmpwZWciXSxbInAiLCJ0aHVtYiIsIjYwMHg2MDAiXV0.jpeg?sha=893eb46851454625",
     'title': 'CityDesk',
     'type': 'table_manual_customize',
     'price': 8888,
     'is_published': True
-    },
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzM5NDk4MzU5LzE2NzYzNjkyNDNfNDg3YzdhZDM0ODBkOGE0ZTNjMjcucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=f8abfa93941cb936",
     'title': 'Reef桌上平台螢幕架',
     'type': 'fitting_t',
     'price': 1200,
     'is_published': True
-    },
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzM3MTA4NDA5LzE2NTQ4NTY0NDJfNGZjYTA0YjU5MGE5N2YxZGVjZTIucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=e4657b6df73325f0",
     'title': 'JellyFish透氣腳拖',
     'type': 'fitting_c',
     'price': 2000,
     'is_published': True
-    },   
+},
     {
     'image': "https://cdn1.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzI5NzMzNzU4LzQ1XzNhZDdhY2Q3YTY5ZmI0NzAwY2ZiLmpwZWciXSxbInAiLCJ0aHVtYiIsIjYwMHg2MDAiXV0.jpeg?sha=20774b2527efa5eb",
     'title': 'headquarter音樂工作站',
     'type': 'music_customize',
     'price': 22900,
     'is_published': True
-    }
+}
 ]
+# 旗艦款
+chair_expensive_customize_dic = {
+    '椅輪(Casters)': [
+        '固定椅腳', 'PP耐磨椅輪', 'PU靜音椅輪', 'PU電鍍空心輪'
+    ],
+}
+# 特規款
+chair_kabuto_customize_dic = {
+    '背框(Backrest Frame)': [
+        '黑', '白'
+    ],
+    '坐墊(Seatpad_material)': [
+        '泡綿', '強力網座'
+    ],
+    '網布顏色(Color)': [
+        '黑', '灰'
+    ],
+}
+chair_viking_customize_dic = {
+    '坐墊(Seatpad_material)': [
+        '泡綿', '強力網座'
+    ],
+    '網布顏色(Color)': [
+        '黑', '灰'
+    ],
+}
+chair_owl_customize_dic = {
+    '坐墊(Seatpad_material)': [
+        '泡綿', '強力網座'
+    ],
+    '網布顏色(Color)': [
+        '灰'
+    ],
+}
+chair_mamba_customize_dic = {
+    '坐墊(Seatpad_material)': [
+        '泡綿', '強力網座'
+    ],
+    '網布顏色(Color)': [
+        '黑'
+    ],
+}
+# 一般客製款
 chair_customize_model_dic = {
     '頭枕(Headrest)': [
         '有頭枕', '無頭枕'
     ],
     '扶手(Armrest)': [
-        '無扶手', '1D(升降)', '旋轉1D(後收、升降)', '3D(升降,前後左右)', '3D肘拖(升降,扇形左右)', '旋轉3D扶手(後收,升降,前後左右)'
+        '無扶手', '1D', '旋轉1D', '3D', '3D肘拖', '旋轉3D扶手'
     ],
     '坐墊材質(Seatpad_material)': [
         'Q綿坐墊', '方厚成形泡綿', '圓泡綿', '小網座', '強力網座'
@@ -107,7 +150,7 @@ chair_customize_model_dic = {
         '尼龍椅腳', '鋁製椅腳'
     ],
     '椅輪(Casters)': [
-        '固定椅腳(如選網座,座高會提高)', 'PP耐磨椅輪', 'PU靜音椅輪', 'PU電鍍空心輪'
+        '固定椅腳', 'PP耐磨椅輪', 'PU靜音椅輪', 'PU電鍍空心輪'
     ],
 }
 chair_seat_customize_model_color_dic = {
@@ -181,21 +224,21 @@ chair_headandback_customize_model_color_dic = {
     }
 }
 table_electric_customize_model_dic = {
-    '大小':[
-        '123cm*70cm','150cm*75cm'
+    '大小': [
+        '123cm*70cm', '150cm*75cm'
     ],
-    '桌板顏色':[
-        '黑','白','拼接木紋','淺木紋'
+    '桌板顏色': [
+        '黑', '白', '拼接木紋', '淺木紋'
     ],
-    '桌腳顏色':[
-        '黑','白'
+    '桌腳顏色': [
+        '黑', '白'
     ]
 }
 table_manual_customize_model_dic = {
-    '大小':[
+    '大小': [
         '120cm*60cm'
     ],
-    '桌款顏色':[
-        '黑桌+黑腳','白桌+白腳','拼接木紋桌+黑腳','淺木紋桌+白腳'
+    '桌款顏色': [
+        '黑桌+黑腳', '白桌+白腳', '拼接木紋桌+黑腳', '淺木紋桌+白腳'
     ]
 }

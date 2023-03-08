@@ -15,78 +15,70 @@
     <div class="container">
         <h1>Chair_Customize</h1>
         <div class="row">
-            {%for product in product_list%}
-                {%if 'chair' in product['type']%}
-                    <div class="col-md-4 d-flex align-items-stretch">
-                        <!-- 快捷
+            {%for product in chairList%}
+            <div class="col-md-4 d-flex align-items-stretch">
+                <!-- 快捷
                             b4-card-default -->
-                        <div class="card mb-5 ">
-                            <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
-                            <div class="card-body">
-                                <h4 class="card-title">{{product.title}}</h4>
-                                <p class="card-text">${{product.price}}NTD</p>
-                                <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
-                            </div>
-                        </div>
+                <div class="card mb-5 ">
+                    <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                    <div class="card-body">
+                        <h4 class="card-title">{{product.title}}</h4>
+                        <p class="card-text">${{product.price}}NTD</p>
+                        <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
                     </div>
-                {%endif%}
+                </div>
+            </div>
             {%endfor%}`
         </div>
         <h1>Table_Customize</h1>
         <div class="row">
-            {%for product in product_list%}
-                {%if 'table' in product['type']%}
-                    <div class="col-md-4 d-flex align-items-stretch">
-                        <!-- 快捷
+            {%for product in tableList%}
+            <div class="col-md-4 d-flex align-items-stretch">
+                <!-- 快捷
                             b4-card-default -->
-                        <div class="card mb-5 ">
-                            <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
-                            <div class="card-body">
-                                <h4 class="card-title">{{product.title}}</h4>
-                                <p class="card-text">${{product.price}}NTD</p>
-                                <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
-                            </div>
-                        </div>
+                <div class="card mb-5 ">
+                    <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                    <div class="card-body">
+                        <h4 class="card-title">{{product.title}}</h4>
+                        <p class="card-text">${{product.price}}NTD</p>
+                        <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
                     </div>
-                {%endif%}
+                </div>
+            </div>
             {%endfor%}`
         </div>
         <h1>Fitting</h1>
         <div class="row">
-            {%for product in product_list%}
-                {%if 'fitting' in product['type']%}
-                    <div class="col-md-4 d-flex align-items-stretch">
-                        <!-- 快捷
+            {%for product in fittingList%}
+            <div class="col-md-4 d-flex align-items-stretch">
+                <!-- 快捷
                             b4-card-default -->
-                        <div class="card mb-5 ">
-                            <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
-                            <div class="card-body">
-                                <h4 class="card-title">{{product.title}}</h4>
-                                <p class="card-text">${{product.price}}NTD</p>
-                                <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
-                            </div>
-                        </div>
+                <div class="card mb-5 ">
+                    <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                    <div class="card-body">
+                        <h4 class="card-title">{{product.title}}</h4>
+                        <p class="card-text">${{product.price}}NTD</p>
+                        <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
                     </div>
-                {%endif%}
+                </div>
+            </div>
             {%endfor%}`
         </div>
         <h1>Music_Customize</h1>
         <div class="row">
-            {%for product in product_list%}
-                {%if 'music' in product['type']%}
-                    <div class="col-md-4 d-flex align-items-stretch">
-                        <!-- 快捷
+            {%for product in musicList%}
+            <div class="col-md-4 d-flex align-items-stretch">
+                <!-- 快捷
                             b4-card-default -->
-                        <div class="card mb-5 ">
-                            <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
-                            <div class="card-body">
-                                <h4 class="card-title">{{product.title}}</h4>
-                                <p class="card-text">${{product.price}}NTD</p>
-                                <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
-                            </div>
-                        </div>
+                <div class="card mb-5 ">
+                    <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
+                    <div class="card-body">
+                        <h4 class="card-title">{{product.title}}</h4>
+                        <p class="card-text">${{product.price}}NTD</p>
+                        <a class="btn btn-secondary  " href="product/{{product.title}}">ShowDetails</a>
                     </div>
-                {%endif%}
+                </div>
+            </div>
             {%endfor%}`
         </div>
     </div>
