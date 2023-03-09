@@ -46,12 +46,21 @@
                         {%endif%}
                     {%endfor%}
                     <div class="btn-group d-flex btn-group-toggle " data-toggle="buttons">
-                        {%for color in colorDict[color_count]%}
-                        <label class="btn btn-outline-secondary ">
-                            <input type="radio" name="button" id="{{color}}}" autocomplete="off">
-                            {{color}}
-                        </label>
-                        {%endfor%}
+                        {%if product.type == "chair_special"%}
+                            {%for color in colorDict[color_count]%}
+                            <label class="btn btn-outline-secondary">
+                                <input type="radio" name="button" id="{{color}}}" autocomplete="off">
+                                {{color}}
+                            </label>
+                            {%endfor%}
+                        {%else%}
+                            {%for color in colorDict[color_count]%}
+                            <label class="btn btn-outline-secondary dropdown-toggle">
+                                <input type="radio" name="button" id="{{color}}}" autocomplete="off">
+                                {{color}}
+                            </label>
+                            {%endfor%}
+                        {%endif%}
                     </div>
                 </tr>
                 <p><br></p>
