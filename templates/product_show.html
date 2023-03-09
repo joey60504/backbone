@@ -14,17 +14,17 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-mb-6">
+            <div class="col-md-6">
                 <img class="card-img-top" src={{product.image}} alt="{{product.title}}">
             </div>
-            <div class="col-mb-6">
+            <div class="col-md-6">
                 <h1>{{product.title}}<br></h1>
                 <h2>${{product.price}}NTD</h2>
                 {%for customize_count in choiceDict%}
                 <tr>
                     {%for key in choiceDict.keys()%}
                         {%if key == customize_count%}
-                            <h3>{{key}}</h3>
+                            <h4>{{key}}</h4>
                         {%endif%}
                     {%endfor%}
                     <div class="btn-group d-flex btn-group-toggle " data-toggle="buttons">
@@ -38,14 +38,23 @@
                 </tr>
                 <p><br></p>
                 {%endfor%}
-                {%for color_count in colorSeatList%}
+                {%for color_count in colorDict%}
                 <tr>
-                    <select class="btn d-flex btn-outline-secondary">
-                        {%for customize in colorSeatList[color_count]%}
-                        <option value="{{customize}}">{{customize}}</option>
+                    {%for key in colorDict.keys()%}
+                        {%if key == color_count%}
+                            <h4>{{key}}</h4>
+                        {%endif%}
+                    {%endfor%}
+                    <div class="btn-group d-flex btn-group-toggle " data-toggle="buttons">
+                        {%for color in colorDict[color_count]%}
+                        <label class="btn btn-outline-secondary ">
+                            <input type="radio" name="button" id="{{color}}}" autocomplete="off">
+                            {{color}}
+                        </label>
                         {%endfor%}
-                    </select>
+                    </div>
                 </tr>
+                <p><br></p>
                 {%endfor%}
             </div>
         </div>
