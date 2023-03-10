@@ -77,6 +77,7 @@ def product_show(pid):
             BackrestFrame.append('白')
         if(productList.get('seat_Level') == 4):
             Seatpadmaterial.remove('Q綿坐墊')
+            Seatpadmaterial.remove('圓泡綿')
             Seatpadmaterial.remove('小網座')
             Seatpadmaterial.remove('PVC合成皮')
             Seatpadmaterial.remove('全牛皮')
@@ -91,6 +92,7 @@ def product_show(pid):
     # 椅子旗艦選項    
     if 'chair_expensive' ==  productList.get('type'):
         Seatpadmaterial.remove('Q綿坐墊')
+        Seatpadmaterial.remove('圓泡綿')
         Seatpadmaterial.remove('小網座')
         Seatpadmaterial.remove('方厚成形泡綿')
         headAndBackrestColor.pop('透氣網面')  
