@@ -19,52 +19,10 @@
             </div>
             <div class="col-md-6">
                 <h1>{{product.title}}<br></h1>
+                <p><br></p>
                 <h2>${{product.price}}NTD</h2>
-                {%for customize_count in choiceDict%}
-                    <tr>
-                        {%for key in choiceDict.keys()%}
-                            {%if key == customize_count%}
-                            <h4>{{key}}</h4>
-                            {%endif%}
-                        {%endfor%}
-                        <div class="btn-group d-flex btn-group-toggle " data-toggle="buttons">
-                            {%for customize in choiceDict[customize_count]%}
-                            <label class="btn btn-outline-secondary">
-                                <input type="radio" name="button" id="{{customize}}}" autocomplete="off">
-                                {{customize}}
-                            </label>
-                            {%endfor%}
-                        </div>
-                    </tr>
-                    <p><br></p>
-                {%endfor%}
-                {%for color_count in colorDict%}
-                    <tr>
-                    {%for key in colorDict.keys()%}
-                        {%if key == color_count%}
-                            <h4>{{key}}</h4>
-                        {%endif%}
-                    {%endfor%}
-                    <div class="btn-group d-flex btn-group-toggle " data-toggle="buttons">
-                        {%if product.type == "chair_special"%}
-                            {%for color in colorDict[color_count]%}
-                                <label class="btn btn-outline-secondary">
-                                    <input type="radio" name="button" id="{{color}}}" autocomplete="off">
-                                    {{color}}
-                                </label>
-                            {%endfor%}
-                        {%else%}
-                            {%for color in colorDict[color_count]%}
-                            <label class="btn btn-outline-secondary dropdown-toggle">
-                                <input type="radio" name="button" id="{{color}}}" autocomplete="off">
-                                {{color}}
-                            </label>
-                            {%endfor%}
-                        {%endif%}
-                    </div>
-                    </tr>
-                    <p><br></p>
-                {%endfor%}
+                <p><br></p>
+
             </div>
         </div>
         <a class="btn btn-secondary" href='/'>回到產品列表</a>

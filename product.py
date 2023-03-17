@@ -178,9 +178,8 @@ table_manual_customize_model_dic = {
         '黑桌+黑腳', '白桌+白腳', '拼接木紋桌+黑腳', '淺木紋桌+白腳'
     ]
 }
-#椅款客製(special為特規款專用)
 Backrest_Frame = [
-    '黑'
+    '黑','白'
 ]
 headrest = [
     '無頭枕','有頭枕'
